@@ -1,0 +1,15 @@
+cookie:
+  expiry_days: 0
+  key: some_signature_key
+  name: some_cookie_name
+credentials:
+  usernames:
+    eunji:
+      name: "\uC740\uC9C0"
+      password: $2b$12$oRGLUfl3WFaljsKLicdpmewespf4zFgU9/sXf2U87VlxNsUbN9z3K
+    "\uB85C\uADF8\uC778":
+      name: "\uB85C\uADF8\uC778\uD14C\uC2A4\uD2B8"
+      password: $2b$12$lHklZ7h1K96XVKXTSBPbWOQIz2m//i1.sxwTx2UjO.vHO3KotQsia
+preauthorized:
+  emails:
+  - eunjiingermany@gmail.com
