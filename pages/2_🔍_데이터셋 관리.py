@@ -56,7 +56,7 @@ if select_ds == '예시1':
     graph_column = st.selectbox('비교 그래프', column_list)
     for c in column_list:
         if graph_column == c:
-            fig, ax = plt.subplots()
+            fig, ax = plt.subplots(figsize=(7,3))
             sns.histplot(df[c], kde=True)
             ax.set_xlabel(str(c))
             plt.xticks(rotation=90)
